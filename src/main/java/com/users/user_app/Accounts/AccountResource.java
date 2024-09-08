@@ -46,7 +46,7 @@ public class AccountResource {
 		return ResponseEntity.created(location).build();
 	}
 	
-	/*	
+		
 	@GetMapping(path = "/accounts")
 	public List<Account> retrieveAllApplicants(){
 		return repository.findAll();
@@ -65,5 +65,5 @@ public class AccountResource {
 		repository.deleteById(id);
 	}
 	
-	*/
+	
 }
